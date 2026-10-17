@@ -1,15 +1,7 @@
-data_driven_RSA/python/create_searchlight_vectors: 
+data_driven_RSA/python/create_searchlight_vectors: this is where we go from the RSM from the previous paper to the vectors for K-means
 
-- this is where we go from the RSM from the previous paper to the vectors for K-means
+data_driven_RSA/python/run_kmeans_and_get_silhouettes: this is where we run K-means and get silhouette scores
 
-data_driven_RSA/python/run_kmeans_and_get_silhouettes
+data_driven_RSA/python/create_cluster_average_3by3: this is where we average over searchlights in each cluster for visualization later
 
-- this is where we run K-means and get silhouette scores
-
-data_driven_RSA/python/create_cluster_average_3by3
-
-- this is where we average over searchlights in each cluster for visualization later
-
-data_driven_RSA/python/visualize_for_paper
-
-- this is where we visualize the clusters in the violin plots and look at silhouette scores + brain maps.
+data_driven_RSA/python/visualize_for_paper: this is where we visualize the clusters in the violin plots and look at silhouette scores + brain maps.
